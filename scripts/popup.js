@@ -1,5 +1,5 @@
 const searchInput = document.getElementById("search");
 
 searchInput.addEventListener("change", (e) => {
-  console.log(e.target.value);
+  console.log("[Popup]", e.target.value);
 });
