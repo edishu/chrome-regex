@@ -9,14 +9,7 @@
     "48": "images/favicon-48x48.png",
     "128": "images/favicon-128x128.png"
   },
-  "content_scripts": [
-    {
-      "js": ["scripts/content.js"],
-      "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*",
-        "https://developer.mozilla.org/en-US/*"
-      ]
-    }
-  ]
+  "action": {
+    "default_popup": "finder.html"
+  }
 }
